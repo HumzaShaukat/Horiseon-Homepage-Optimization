@@ -32,9 +32,13 @@ body {
     font-size: 20px;
 }
 
-.header nav a {
+.header ul li {
     display: inline-block;
     margin-left: 25px;
+    list-style-type: none;
+}
+
+.header a {
     color: #ffffff;
     text-decoration: none;
 }
