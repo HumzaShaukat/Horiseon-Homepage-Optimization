@@ -8,6 +8,8 @@ body {
     background-color: #d9dcd6;
 }
 
+/* Elements located in the header are grouped and styled together to reduce redundant code */
+
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -47,6 +49,8 @@ p {
     font-size: 16px;
 }
 
+/* The "hero" section exists to house the background image.  This CSS section declares the height, width, and positioning */
+
 .hero {
     height: 800px;
     width: 100%;
@@ -66,6 +70,7 @@ p {
     margin-left: 25px;
 }
 
+/* consolidated declarations for the "content" class */
 .content {
     width: 75%;
     display: inline-block;
@@ -89,6 +94,8 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
+
+/* The benefits style were also consolidated to reduce redundant code.  */
 
 .benefits {
     margin-right: 20px;
