@@ -26,7 +26,9 @@ header h1 .seo {
     color: #d9dcd6;
 }
 
-header ul {
+/* The Links in the navigation bar are formatted below */
+
+header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -34,15 +36,11 @@ header ul {
     font-size: 20px;
 }
 
-header ul li {
-    display: inline-block;
-    margin-left: 25px;
-    list-style-type: none;
-}
-
 header a {
     color: #ffffff;
     text-decoration: none;
+    display: inline-block;
+    margin-left: 25px;
 }
 
 p {
@@ -125,6 +123,8 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
+
+/* Formats a footer that contains a copyright symbol */
 
 .footer {
     padding: 30px;
